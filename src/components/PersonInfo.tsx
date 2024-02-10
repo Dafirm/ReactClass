@@ -1,3 +1,4 @@
+import { useState } from "react";
 
 interface PersonInfoProps {
     name: string;
@@ -7,6 +8,7 @@ interface PersonInfoProps {
 
 
 const PersonInfo: React.FC<PersonInfoProps> = ({ name, age, email }) => {
+
     return(
         <div>
             <h2>Name: {name}</h2>
