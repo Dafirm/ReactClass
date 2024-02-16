@@ -1,4 +1,3 @@
-import { useState } from "react";
 
 interface PersonInfoProps {
     name: string;
@@ -14,8 +13,10 @@ const PersonInfo: React.FC<PersonInfoProps> = ({ name, age, email }) => {
             <h2>Name: {name}</h2>
             <p>Age: {age}</p>
             <p>Email:{email}</p>
+
         </div>
     );
 };
 
 export default PersonInfo;
+
